@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	padding:0;
+}
+div.box{
+	width: 100%;
+	position:relative;
+	top:5px;
+	margin:0;
+	padding:0;
+	border-top:solid 1px #6091d3;
+	border-bottom:solid 1px #6091d3;
+}
+ul{
+	list-style-type: none; /*箇条書きのポッチを消す*/
+}
+li{
+	margin:0;
+	padding:0;
+}
+div.frame1{
+	display:inline-block;
+	position: absolute;
+	width:45%;
+	margin:0;
+	padding:2px;
+	top:0px;
+	border-right:solid 2px #6091d3;
+}
+div.frame2{
+	display:inline-block;
+	position: absolute;
+	width:45%;
+	margin:0;
+	padding:2px;
+	left:47%;
+	top:0px;
+}
